@@ -2,20 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="aece42ff-0ad0-4f74-a434-5ec382bacd12" name="Default Changelist" comment="Initialize Project">
-      <change afterPath="$PROJECT_DIR$/adventuregame/game.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/adventuregame/npc.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/adventuregame/player.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/adventuregame/rooms.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/adventuregame/world.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tests/test_world.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../README.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/enemy.py" beforeDir="false" afterPath="$PROJECT_DIR$/adventuregame/enemies.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/game.py" beforeDir="false" afterPath="$PROJECT_DIR$/adventuregame/__init__.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/items.py" beforeDir="false" afterPath="$PROJECT_DIR$/adventuregame/items.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/npc.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/player.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/world.py" beforeDir="false" afterPath="$PROJECT_DIR$/adventuregame/actions.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../README.md" beforeDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -25,20 +13,14 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/adventuregame/rooms.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="51">
-              <caret line="15" column="14" selection-start-line="15" selection-start-column="14" selection-end-line="15" selection-end-column="14" />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/docs/conf.py">
+        <entry file="file://$PROJECT_DIR$/adventuregame/game.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="348">
-              <caret line="36" column="14" lean-forward="true" selection-start-line="36" selection-start-column="14" selection-end-line="36" selection-end-column="14" />
+            <state relative-caret-position="59">
+              <caret line="10" column="18" selection-start-line="10" selection-start-column="18" selection-end-line="10" selection-end-column="18" />
+              <folding>
+                <element signature="e#0#31#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -123,16 +105,6 @@
             <path>
               <item name="Pythontraining" type="b2602c69:ProjectViewProjectNode" />
               <item name="Pythontraining" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Pythontraining" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Pythontraining" type="462c0819:PsiDirectoryNode" />
-              <item name="adventuregame" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Pythontraining" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Pythontraining" type="462c0819:PsiDirectoryNode" />
-              <item name="docs" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -340,9 +312,8 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="1713" y="0" width="1734" height="1407" extended-state="0" />
-    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.12382075" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.12382075" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -352,7 +323,7 @@
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" sideWeight="0.4994104" weight="0.32967034" />
-      <window_info anchor="bottom" id="Version Control" order="7" sideWeight="0.4976415" visible="true" weight="0.3288854" />
+      <window_info active="true" anchor="bottom" id="Version Control" order="7" sideWeight="0.4976415" visible="true" weight="0.3288854" />
       <window_info anchor="bottom" id="Terminal" order="8" sideWeight="0.4994104" weight="0.32967034" />
       <window_info anchor="bottom" id="Event Log" order="9" sideWeight="0.5023585" side_tool="true" visible="true" weight="0.3288854" />
       <window_info anchor="bottom" id="Python Console" order="10" sideWeight="0.4970519" weight="0.32967034" />
@@ -447,7 +418,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/adventuregame/game.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="126">
+        <state relative-caret-position="59">
           <caret line="10" column="18" selection-start-line="10" selection-start-column="18" selection-end-line="10" selection-end-column="18" />
           <folding>
             <element signature="e#0#31#0" expanded="true" />

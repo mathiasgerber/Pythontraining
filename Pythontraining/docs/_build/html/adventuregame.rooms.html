@@ -1,0 +1,517 @@
+
+
+<!DOCTYPE html>
+<!--[if IE 8]><html class="no-js lt-ie9" lang="en" > <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js" lang="en" > <!--<![endif]-->
+<head>
+  <meta charset="utf-8">
+  
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  
+  <title>adventuregame.rooms module &mdash; Training  documentation</title>
+  
+
+  
+  
+  
+  
+
+  
+  <script type="text/javascript" src="_static/js/modernizr.min.js"></script>
+  
+    
+      <script type="text/javascript" id="documentation_options" data-url_root="./" src="_static/documentation_options.js"></script>
+        <script type="text/javascript" src="_static/jquery.js"></script>
+        <script type="text/javascript" src="_static/underscore.js"></script>
+        <script type="text/javascript" src="_static/doctools.js"></script>
+        <script type="text/javascript" src="_static/language_data.js"></script>
+    
+    <script type="text/javascript" src="_static/js/theme.js"></script>
+
+    
+
+  
+  <link rel="stylesheet" href="_static/css/theme.css" type="text/css" />
+  <link rel="stylesheet" href="_static/pygments.css" type="text/css" />
+    <link rel="index" title="Index" href="genindex.html" />
+    <link rel="search" title="Search" href="search.html" /> 
+</head>
+
+<body class="wy-body-for-nav">
+
+   
+  <div class="wy-grid-for-nav">
+    
+    <nav data-toggle="wy-nav-shift" class="wy-nav-side">
+      <div class="wy-side-scroll">
+        <div class="wy-side-nav-search" >
+          
+
+          
+            <a href="index.html" class="icon icon-home"> Training
+          
+
+          
+          </a>
+
+          
+            
+            
+          
+
+          
+<div role="search">
+  <form id="rtd-search-form" class="wy-form" action="search.html" method="get">
+    <input type="text" name="q" placeholder="Search docs" />
+    <input type="hidden" name="check_keywords" value="yes" />
+    <input type="hidden" name="area" value="default" />
+  </form>
+</div>
+
+          
+        </div>
+
+        <div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="main navigation">
+          
+            
+            
+              
+            
+            
+              <!-- Local TOC -->
+              <div class="local-toc"><ul>
+<li><a class="reference internal" href="#">adventuregame.rooms module</a></li>
+</ul>
+</div>
+            
+          
+        </div>
+      </div>
+    </nav>
+
+    <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap">
+
+      
+      <nav class="wy-nav-top" aria-label="top navigation">
+        
+          <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
+          <a href="index.html">Training</a>
+        
+      </nav>
+
+
+      <div class="wy-nav-content">
+        
+        <div class="rst-content">
+        
+          
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div role="navigation" aria-label="breadcrumbs navigation">
+
+  <ul class="wy-breadcrumbs">
+    
+      <li><a href="index.html">Docs</a> &raquo;</li>
+        
+      <li>adventuregame.rooms module</li>
+    
+    
+      <li class="wy-breadcrumbs-aside">
+        
+            
+            <a href="_sources/adventuregame.rooms.rst.txt" rel="nofollow"> View page source</a>
+          
+        
+      </li>
+    
+  </ul>
+
+  
+  <hr/>
+</div>
+          <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
+           <div itemprop="articleBody">
+            
+  <div class="section" id="module-rooms">
+<span id="adventuregame-rooms-module"></span><h1>adventuregame.rooms module<a class="headerlink" href="#module-rooms" title="Permalink to this headline">¶</a></h1>
+<dl class="class">
+<dt id="rooms.CaveExit">
+<em class="property">class </em><code class="sig-prename descclassname">rooms.</code><code class="sig-name descname">CaveExit</code><span class="sig-paren">(</span><em class="sig-param">x</em>, <em class="sig-param">y</em><span class="sig-paren">)</span><a class="headerlink" href="#rooms.CaveExit" title="Permalink to this definition">¶</a></dt>
+<dd><p>Bases: <a class="reference internal" href="#rooms.RoomTile" title="rooms.RoomTile"><code class="xref py py-class docutils literal notranslate"><span class="pre">rooms.RoomTile</span></code></a></p>
+<p>The Room with which the game ends as soon as the player reaches it.</p>
+<dl class="method">
+<dt id="rooms.CaveExit.entry_text">
+<code class="sig-name descname">entry_text</code><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="headerlink" href="#rooms.CaveExit.entry_text" title="Permalink to this definition">¶</a></dt>
+<dd><p>Prints an entry text whenever a room is entered.</p>
+</dd></dl>
+
+<dl class="method">
+<dt id="rooms.CaveExit.modify_player">
+<code class="sig-name descname">modify_player</code><span class="sig-paren">(</span><em class="sig-param">player</em><span class="sig-paren">)</span><a class="headerlink" href="#rooms.CaveExit.modify_player" title="Permalink to this definition">¶</a></dt>
+<dd><p>Modifies the player depending on the room.</p>
+</dd></dl>
+
+</dd></dl>
+
+<dl class="class">
+<dt id="rooms.DaggerRoom">
+<em class="property">class </em><code class="sig-prename descclassname">rooms.</code><code class="sig-name descname">DaggerRoom</code><span class="sig-paren">(</span><em class="sig-param">x</em>, <em class="sig-param">y</em><span class="sig-paren">)</span><a class="headerlink" href="#rooms.DaggerRoom" title="Permalink to this definition">¶</a></dt>
+<dd><p>Bases: <a class="reference internal" href="#rooms.LootRoom" title="rooms.LootRoom"><code class="xref py py-class docutils literal notranslate"><span class="pre">rooms.LootRoom</span></code></a></p>
+<p>A LootRoom in which a Dagger can be found.</p>
+<dl class="method">
+<dt id="rooms.DaggerRoom.entry_text">
+<code class="sig-name descname">entry_text</code><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="headerlink" href="#rooms.DaggerRoom.entry_text" title="Permalink to this definition">¶</a></dt>
+<dd><p>Prints an entry text whenever a room is entered.</p>
+</dd></dl>
+
+</dd></dl>
+
+<dl class="class">
+<dt id="rooms.EmptyRoom">
+<em class="property">class </em><code class="sig-prename descclassname">rooms.</code><code class="sig-name descname">EmptyRoom</code><span class="sig-paren">(</span><em class="sig-param">x</em>, <em class="sig-param">y</em><span class="sig-paren">)</span><a class="headerlink" href="#rooms.EmptyRoom" title="Permalink to this definition">¶</a></dt>
+<dd><p>Bases: <a class="reference internal" href="#rooms.RoomTile" title="rooms.RoomTile"><code class="xref py py-class docutils literal notranslate"><span class="pre">rooms.RoomTile</span></code></a></p>
+<p>Default Room for empty rooms.</p>
+<dl class="method">
+<dt id="rooms.EmptyRoom.entry_text">
+<code class="sig-name descname">entry_text</code><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="headerlink" href="#rooms.EmptyRoom.entry_text" title="Permalink to this definition">¶</a></dt>
+<dd><p>Prints an entry text whenever a room is entered.</p>
+</dd></dl>
+
+<dl class="method">
+<dt id="rooms.EmptyRoom.modify_player">
+<code class="sig-name descname">modify_player</code><span class="sig-paren">(</span><em class="sig-param">player</em><span class="sig-paren">)</span><a class="headerlink" href="#rooms.EmptyRoom.modify_player" title="Permalink to this definition">¶</a></dt>
+<dd><p>Modifies the player depending on the room.</p>
+</dd></dl>
+
+</dd></dl>
+
+<dl class="class">
+<dt id="rooms.EnemyRoom">
+<em class="property">class </em><code class="sig-prename descclassname">rooms.</code><code class="sig-name descname">EnemyRoom</code><span class="sig-paren">(</span><em class="sig-param">x</em>, <em class="sig-param">y</em>, <em class="sig-param">enemy</em><span class="sig-paren">)</span><a class="headerlink" href="#rooms.EnemyRoom" title="Permalink to this definition">¶</a></dt>
+<dd><p>Bases: <a class="reference internal" href="#rooms.RoomTile" title="rooms.RoomTile"><code class="xref py py-class docutils literal notranslate"><span class="pre">rooms.RoomTile</span></code></a></p>
+<p>Superclass for Rooms with an enemy in it.</p>
+<dl class="attribute">
+<dt>
+<code class="sig-name descname">enemy (</code></dt>
+<dd><p>obj:’Enemy’): The enemy object in this room.</p>
+</dd></dl>
+
+<dl class="method">
+<dt id="rooms.EnemyRoom.available_actions">
+<code class="sig-name descname">available_actions</code><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="headerlink" href="#rooms.EnemyRoom.available_actions" title="Permalink to this definition">¶</a></dt>
+<dd><p>Chooses the available actions depending on the enemy’s status.</p>
+</dd></dl>
+
+<dl class="method">
+<dt id="rooms.EnemyRoom.modify_player">
+<code class="sig-name descname">modify_player</code><span class="sig-paren">(</span><em class="sig-param">player</em><span class="sig-paren">)</span><a class="headerlink" href="#rooms.EnemyRoom.modify_player" title="Permalink to this definition">¶</a></dt>
+<dd><p>Modifies the players Health Points from the attack of the enemy.</p>
+</dd></dl>
+
+</dd></dl>
+
+<dl class="class">
+<dt id="rooms.Find5GoldRoom">
+<em class="property">class </em><code class="sig-prename descclassname">rooms.</code><code class="sig-name descname">Find5GoldRoom</code><span class="sig-paren">(</span><em class="sig-param">x</em>, <em class="sig-param">y</em><span class="sig-paren">)</span><a class="headerlink" href="#rooms.Find5GoldRoom" title="Permalink to this definition">¶</a></dt>
+<dd><p>Bases: <a class="reference internal" href="#rooms.LootRoom" title="rooms.LootRoom"><code class="xref py py-class docutils literal notranslate"><span class="pre">rooms.LootRoom</span></code></a></p>
+<p>A LootRoom in which Gold can be found.</p>
+<dl class="method">
+<dt id="rooms.Find5GoldRoom.add_loot">
+<code class="sig-name descname">add_loot</code><span class="sig-paren">(</span><em class="sig-param">player</em><span class="sig-paren">)</span><a class="headerlink" href="#rooms.Find5GoldRoom.add_loot" title="Permalink to this definition">¶</a></dt>
+<dd><p>Adds the lootable item to the players inventory.</p>
+</dd></dl>
+
+<dl class="method">
+<dt id="rooms.Find5GoldRoom.entry_text">
+<code class="sig-name descname">entry_text</code><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="headerlink" href="#rooms.Find5GoldRoom.entry_text" title="Permalink to this definition">¶</a></dt>
+<dd><p>Prints an entry text whenever a room is entered.</p>
+</dd></dl>
+
+</dd></dl>
+
+<dl class="class">
+<dt id="rooms.HealingRoom">
+<em class="property">class </em><code class="sig-prename descclassname">rooms.</code><code class="sig-name descname">HealingRoom</code><span class="sig-paren">(</span><em class="sig-param">x</em>, <em class="sig-param">y</em><span class="sig-paren">)</span><a class="headerlink" href="#rooms.HealingRoom" title="Permalink to this definition">¶</a></dt>
+<dd><p>Bases: <a class="reference internal" href="#rooms.RoomTile" title="rooms.RoomTile"><code class="xref py py-class docutils literal notranslate"><span class="pre">rooms.RoomTile</span></code></a></p>
+<p>A Room which heals the player to full life.</p>
+<dl class="method">
+<dt id="rooms.HealingRoom.entry_text">
+<code class="sig-name descname">entry_text</code><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="headerlink" href="#rooms.HealingRoom.entry_text" title="Permalink to this definition">¶</a></dt>
+<dd><p>Prints an entry text whenever a room is entered.</p>
+</dd></dl>
+
+<dl class="method">
+<dt id="rooms.HealingRoom.modify_player">
+<code class="sig-name descname">modify_player</code><span class="sig-paren">(</span><em class="sig-param">player</em><span class="sig-paren">)</span><a class="headerlink" href="#rooms.HealingRoom.modify_player" title="Permalink to this definition">¶</a></dt>
+<dd><p>Modifies the player depending on the room.</p>
+</dd></dl>
+
+</dd></dl>
+
+<dl class="class">
+<dt id="rooms.ItemRoom">
+<em class="property">class </em><code class="sig-prename descclassname">rooms.</code><code class="sig-name descname">ItemRoom</code><span class="sig-paren">(</span><em class="sig-param">x</em>, <em class="sig-param">y</em><span class="sig-paren">)</span><a class="headerlink" href="#rooms.ItemRoom" title="Permalink to this definition">¶</a></dt>
+<dd><p>Bases: <a class="reference internal" href="#rooms.TraderRoom" title="rooms.TraderRoom"><code class="xref py py-class docutils literal notranslate"><span class="pre">rooms.TraderRoom</span></code></a></p>
+<p>A TraderRoom with an Itemtrader in it.</p>
+<dl class="method">
+<dt id="rooms.ItemRoom.entry_text">
+<code class="sig-name descname">entry_text</code><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="headerlink" href="#rooms.ItemRoom.entry_text" title="Permalink to this definition">¶</a></dt>
+<dd><p>Prints an entry text whenever a room is entered.</p>
+</dd></dl>
+
+</dd></dl>
+
+<dl class="class">
+<dt id="rooms.LootRoom">
+<em class="property">class </em><code class="sig-prename descclassname">rooms.</code><code class="sig-name descname">LootRoom</code><span class="sig-paren">(</span><em class="sig-param">x</em>, <em class="sig-param">y</em>, <em class="sig-param">item</em><span class="sig-paren">)</span><a class="headerlink" href="#rooms.LootRoom" title="Permalink to this definition">¶</a></dt>
+<dd><p>Bases: <a class="reference internal" href="#rooms.RoomTile" title="rooms.RoomTile"><code class="xref py py-class docutils literal notranslate"><span class="pre">rooms.RoomTile</span></code></a></p>
+<p>Superclass for all Loot-Type rooms in which the player gains something</p>
+<dl class="attribute">
+<dt>
+<code class="sig-name descname">item (</code></dt>
+<dd><p>obj:’Item’): The Item that is picked up in this room.</p>
+</dd></dl>
+
+<dl class="attribute">
+<dt id="rooms.LootRoom.lootable">
+<code class="sig-name descname">lootable</code><a class="headerlink" href="#rooms.LootRoom.lootable" title="Permalink to this definition">¶</a></dt>
+<dd><p>Bool that defines if the item has already been picked
+up or not.</p>
+<dl class="field-list simple">
+<dt class="field-odd">Type</dt>
+<dd class="field-odd"><p>bool</p>
+</dd>
+</dl>
+</dd></dl>
+
+<dl class="method">
+<dt id="rooms.LootRoom.add_loot">
+<code class="sig-name descname">add_loot</code><span class="sig-paren">(</span><em class="sig-param">player</em><span class="sig-paren">)</span><a class="headerlink" href="#rooms.LootRoom.add_loot" title="Permalink to this definition">¶</a></dt>
+<dd><p>Adds the lootable item to the players inventory.</p>
+</dd></dl>
+
+<dl class="method">
+<dt id="rooms.LootRoom.modify_player">
+<code class="sig-name descname">modify_player</code><span class="sig-paren">(</span><em class="sig-param">player</em><span class="sig-paren">)</span><a class="headerlink" href="#rooms.LootRoom.modify_player" title="Permalink to this definition">¶</a></dt>
+<dd><p>If the item is still available, starts the add_loot method.</p>
+</dd></dl>
+
+</dd></dl>
+
+<dl class="class">
+<dt id="rooms.OgreRoom">
+<em class="property">class </em><code class="sig-prename descclassname">rooms.</code><code class="sig-name descname">OgreRoom</code><span class="sig-paren">(</span><em class="sig-param">x</em>, <em class="sig-param">y</em><span class="sig-paren">)</span><a class="headerlink" href="#rooms.OgreRoom" title="Permalink to this definition">¶</a></dt>
+<dd><p>Bases: <a class="reference internal" href="#rooms.EnemyRoom" title="rooms.EnemyRoom"><code class="xref py py-class docutils literal notranslate"><span class="pre">rooms.EnemyRoom</span></code></a></p>
+<p>EnemyRoom with an Ogre as enemy.</p>
+<dl class="method">
+<dt id="rooms.OgreRoom.entry_text">
+<code class="sig-name descname">entry_text</code><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="headerlink" href="#rooms.OgreRoom.entry_text" title="Permalink to this definition">¶</a></dt>
+<dd><p>Prints an entry text whenever a room is entered.</p>
+</dd></dl>
+
+</dd></dl>
+
+<dl class="class">
+<dt id="rooms.RoomTile">
+<em class="property">class </em><code class="sig-prename descclassname">rooms.</code><code class="sig-name descname">RoomTile</code><span class="sig-paren">(</span><em class="sig-param">x</em>, <em class="sig-param">y</em><span class="sig-paren">)</span><a class="headerlink" href="#rooms.RoomTile" title="Permalink to this definition">¶</a></dt>
+<dd><p>Bases: <code class="xref py py-class docutils literal notranslate"><span class="pre">object</span></code></p>
+<p>Superclass for all the different rooms.</p>
+<dl class="attribute">
+<dt id="rooms.RoomTile.x">
+<code class="sig-name descname">x</code><a class="headerlink" href="#rooms.RoomTile.x" title="Permalink to this definition">¶</a></dt>
+<dd><p>Room coordinate on the x-axis.</p>
+<dl class="field-list simple">
+<dt class="field-odd">Type</dt>
+<dd class="field-odd"><p>int</p>
+</dd>
+</dl>
+</dd></dl>
+
+<dl class="attribute">
+<dt id="rooms.RoomTile.y">
+<code class="sig-name descname">y</code><a class="headerlink" href="#rooms.RoomTile.y" title="Permalink to this definition">¶</a></dt>
+<dd><p>Room coordinate on the y-axis.</p>
+<dl class="field-list simple">
+<dt class="field-odd">Type</dt>
+<dd class="field-odd"><p>int</p>
+</dd>
+</dl>
+</dd></dl>
+
+<dl class="method">
+<dt id="rooms.RoomTile.adjacent_moves">
+<code class="sig-name descname">adjacent_moves</code><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="headerlink" href="#rooms.RoomTile.adjacent_moves" title="Permalink to this definition">¶</a></dt>
+<dd><p>Checks if there are adjacent RoomTiles to move to.</p>
+<dl class="field-list simple">
+<dt class="field-odd">Returns</dt>
+<dd class="field-odd"><p><dl class="simple">
+<dt>obj:’List’ of :obj:’Actions’): Returns possible moves that</dt><dd><p>can be made from this Room to another.</p>
+</dd>
+</dl>
+</p>
+</dd>
+<dt class="field-even">Return type</dt>
+<dd class="field-even"><p>moves (</p>
+</dd>
+</dl>
+</dd></dl>
+
+<dl class="method">
+<dt id="rooms.RoomTile.available_actions">
+<code class="sig-name descname">available_actions</code><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="headerlink" href="#rooms.RoomTile.available_actions" title="Permalink to this definition">¶</a></dt>
+<dd><p>Returns all of the available actions in this room.</p>
+</dd></dl>
+
+<dl class="method">
+<dt id="rooms.RoomTile.entry_text">
+<code class="sig-name descname">entry_text</code><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="headerlink" href="#rooms.RoomTile.entry_text" title="Permalink to this definition">¶</a></dt>
+<dd><p>Prints an entry text whenever a room is entered.</p>
+</dd></dl>
+
+<dl class="method">
+<dt id="rooms.RoomTile.modify_player">
+<code class="sig-name descname">modify_player</code><span class="sig-paren">(</span><em class="sig-param">player</em><span class="sig-paren">)</span><a class="headerlink" href="#rooms.RoomTile.modify_player" title="Permalink to this definition">¶</a></dt>
+<dd><p>Modifies the player depending on the room.</p>
+</dd></dl>
+
+</dd></dl>
+
+<dl class="class">
+<dt id="rooms.StartingRoom">
+<em class="property">class </em><code class="sig-prename descclassname">rooms.</code><code class="sig-name descname">StartingRoom</code><span class="sig-paren">(</span><em class="sig-param">x</em>, <em class="sig-param">y</em><span class="sig-paren">)</span><a class="headerlink" href="#rooms.StartingRoom" title="Permalink to this definition">¶</a></dt>
+<dd><p>Bases: <a class="reference internal" href="#rooms.RoomTile" title="rooms.RoomTile"><code class="xref py py-class docutils literal notranslate"><span class="pre">rooms.RoomTile</span></code></a></p>
+<p>The Room in which the game starts.</p>
+<dl class="method">
+<dt id="rooms.StartingRoom.entry_text">
+<code class="sig-name descname">entry_text</code><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="headerlink" href="#rooms.StartingRoom.entry_text" title="Permalink to this definition">¶</a></dt>
+<dd><p>Prints an entry text whenever a room is entered.</p>
+</dd></dl>
+
+<dl class="method">
+<dt id="rooms.StartingRoom.modify_player">
+<code class="sig-name descname">modify_player</code><span class="sig-paren">(</span><em class="sig-param">player</em><span class="sig-paren">)</span><a class="headerlink" href="#rooms.StartingRoom.modify_player" title="Permalink to this definition">¶</a></dt>
+<dd><p>Modifies the player depending on the room.</p>
+</dd></dl>
+
+</dd></dl>
+
+<dl class="class">
+<dt id="rooms.TraderRoom">
+<em class="property">class </em><code class="sig-prename descclassname">rooms.</code><code class="sig-name descname">TraderRoom</code><span class="sig-paren">(</span><em class="sig-param">x</em>, <em class="sig-param">y</em>, <em class="sig-param">trader</em><span class="sig-paren">)</span><a class="headerlink" href="#rooms.TraderRoom" title="Permalink to this definition">¶</a></dt>
+<dd><p>Bases: <a class="reference internal" href="#rooms.RoomTile" title="rooms.RoomTile"><code class="xref py py-class docutils literal notranslate"><span class="pre">rooms.RoomTile</span></code></a></p>
+<p>Superclass for Rooms with a trader in it.</p>
+<dl class="attribute">
+<dt>
+<code class="sig-name descname">trader (</code></dt>
+<dd><p>obj:’NPC’): A trader npc to buy and sell items.</p>
+</dd></dl>
+
+<dl class="method">
+<dt id="rooms.TraderRoom.available_actions">
+<code class="sig-name descname">available_actions</code><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="headerlink" href="#rooms.TraderRoom.available_actions" title="Permalink to this definition">¶</a></dt>
+<dd><p>Returns all of the available actions in this room.</p>
+</dd></dl>
+
+<dl class="method">
+<dt id="rooms.TraderRoom.modify_player">
+<code class="sig-name descname">modify_player</code><span class="sig-paren">(</span><em class="sig-param">player</em><span class="sig-paren">)</span><a class="headerlink" href="#rooms.TraderRoom.modify_player" title="Permalink to this definition">¶</a></dt>
+<dd><p>Modifies the player depending on the room.</p>
+</dd></dl>
+
+</dd></dl>
+
+<dl class="class">
+<dt id="rooms.WeaponRoom">
+<em class="property">class </em><code class="sig-prename descclassname">rooms.</code><code class="sig-name descname">WeaponRoom</code><span class="sig-paren">(</span><em class="sig-param">x</em>, <em class="sig-param">y</em><span class="sig-paren">)</span><a class="headerlink" href="#rooms.WeaponRoom" title="Permalink to this definition">¶</a></dt>
+<dd><p>Bases: <a class="reference internal" href="#rooms.TraderRoom" title="rooms.TraderRoom"><code class="xref py py-class docutils literal notranslate"><span class="pre">rooms.TraderRoom</span></code></a></p>
+<p>A TraderRoom with a Weapontrader in it.</p>
+<dl class="method">
+<dt id="rooms.WeaponRoom.entry_text">
+<code class="sig-name descname">entry_text</code><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="headerlink" href="#rooms.WeaponRoom.entry_text" title="Permalink to this definition">¶</a></dt>
+<dd><p>Prints an entry text whenever a room is entered.</p>
+</dd></dl>
+
+</dd></dl>
+
+<dl class="class">
+<dt id="rooms.WolfRoom">
+<em class="property">class </em><code class="sig-prename descclassname">rooms.</code><code class="sig-name descname">WolfRoom</code><span class="sig-paren">(</span><em class="sig-param">x</em>, <em class="sig-param">y</em><span class="sig-paren">)</span><a class="headerlink" href="#rooms.WolfRoom" title="Permalink to this definition">¶</a></dt>
+<dd><p>Bases: <a class="reference internal" href="#rooms.EnemyRoom" title="rooms.EnemyRoom"><code class="xref py py-class docutils literal notranslate"><span class="pre">rooms.EnemyRoom</span></code></a></p>
+<p>EnemyRoom with a Wolf as Enemy.</p>
+<dl class="method">
+<dt id="rooms.WolfRoom.entry_text">
+<code class="sig-name descname">entry_text</code><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="headerlink" href="#rooms.WolfRoom.entry_text" title="Permalink to this definition">¶</a></dt>
+<dd><p>Prints an entry text whenever a room is entered.</p>
+</dd></dl>
+
+</dd></dl>
+
+<dl class="class">
+<dt id="rooms.ZombieRoom">
+<em class="property">class </em><code class="sig-prename descclassname">rooms.</code><code class="sig-name descname">ZombieRoom</code><span class="sig-paren">(</span><em class="sig-param">x</em>, <em class="sig-param">y</em><span class="sig-paren">)</span><a class="headerlink" href="#rooms.ZombieRoom" title="Permalink to this definition">¶</a></dt>
+<dd><p>Bases: <a class="reference internal" href="#rooms.EnemyRoom" title="rooms.EnemyRoom"><code class="xref py py-class docutils literal notranslate"><span class="pre">rooms.EnemyRoom</span></code></a></p>
+<p>EnemyRoom with a Zombie as Enemy.</p>
+<dl class="method">
+<dt id="rooms.ZombieRoom.entry_text">
+<code class="sig-name descname">entry_text</code><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="headerlink" href="#rooms.ZombieRoom.entry_text" title="Permalink to this definition">¶</a></dt>
+<dd><p>Prints an entry text whenever a room is entered.</p>
+</dd></dl>
+
+</dd></dl>
+
+</div>
+
+
+           </div>
+           
+          </div>
+          <footer>
+  
+
+  <hr/>
+
+  <div role="contentinfo">
+    <p>
+        &copy; Copyright 2019, Mathias Gerber
+
+    </p>
+  </div>
+  Built with <a href="http://sphinx-doc.org/">Sphinx</a> using a <a href="https://github.com/rtfd/sphinx_rtd_theme">theme</a> provided by <a href="https://readthedocs.org">Read the Docs</a>. 
+
+</footer>
+
+        </div>
+      </div>
+
+    </section>
+
+  </div>
+  
+
+
+  <script type="text/javascript">
+      jQuery(function () {
+          SphinxRtdTheme.Navigation.enable(true);
+      });
+  </script>
+
+  
+  
+    
+   
+
+</body>
+</html>

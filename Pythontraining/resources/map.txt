@@ -1,0 +1,8 @@
+		OgreRoom	CaveExit
+		WolfRoom	
+	HealingRoom	ZombieRoom	
+DaggerRoom	WolfRoom	EmptyRoom	
+WolfRoom	ZombieRoom	StartingRoom	
+	WeaponRoom	EmptyRoom	HealingRoom
+	WolfRoom	Find5GoldRoom	OgreRoom
+			ItemRoom

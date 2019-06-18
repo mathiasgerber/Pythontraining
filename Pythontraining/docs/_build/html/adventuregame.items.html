@@ -1,0 +1,322 @@
+
+
+<!DOCTYPE html>
+<!--[if IE 8]><html class="no-js lt-ie9" lang="en" > <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js" lang="en" > <!--<![endif]-->
+<head>
+  <meta charset="utf-8">
+  
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  
+  <title>adventuregame.items module &mdash; Training  documentation</title>
+  
+
+  
+  
+  
+  
+
+  
+  <script type="text/javascript" src="_static/js/modernizr.min.js"></script>
+  
+    
+      <script type="text/javascript" id="documentation_options" data-url_root="./" src="_static/documentation_options.js"></script>
+        <script type="text/javascript" src="_static/jquery.js"></script>
+        <script type="text/javascript" src="_static/underscore.js"></script>
+        <script type="text/javascript" src="_static/doctools.js"></script>
+        <script type="text/javascript" src="_static/language_data.js"></script>
+    
+    <script type="text/javascript" src="_static/js/theme.js"></script>
+
+    
+
+  
+  <link rel="stylesheet" href="_static/css/theme.css" type="text/css" />
+  <link rel="stylesheet" href="_static/pygments.css" type="text/css" />
+    <link rel="index" title="Index" href="genindex.html" />
+    <link rel="search" title="Search" href="search.html" /> 
+</head>
+
+<body class="wy-body-for-nav">
+
+   
+  <div class="wy-grid-for-nav">
+    
+    <nav data-toggle="wy-nav-shift" class="wy-nav-side">
+      <div class="wy-side-scroll">
+        <div class="wy-side-nav-search" >
+          
+
+          
+            <a href="index.html" class="icon icon-home"> Training
+          
+
+          
+          </a>
+
+          
+            
+            
+          
+
+          
+<div role="search">
+  <form id="rtd-search-form" class="wy-form" action="search.html" method="get">
+    <input type="text" name="q" placeholder="Search docs" />
+    <input type="hidden" name="check_keywords" value="yes" />
+    <input type="hidden" name="area" value="default" />
+  </form>
+</div>
+
+          
+        </div>
+
+        <div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="main navigation">
+          
+            
+            
+              
+            
+            
+              <!-- Local TOC -->
+              <div class="local-toc"><ul>
+<li><a class="reference internal" href="#">adventuregame.items module</a></li>
+</ul>
+</div>
+            
+          
+        </div>
+      </div>
+    </nav>
+
+    <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap">
+
+      
+      <nav class="wy-nav-top" aria-label="top navigation">
+        
+          <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
+          <a href="index.html">Training</a>
+        
+      </nav>
+
+
+      <div class="wy-nav-content">
+        
+        <div class="rst-content">
+        
+          
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div role="navigation" aria-label="breadcrumbs navigation">
+
+  <ul class="wy-breadcrumbs">
+    
+      <li><a href="index.html">Docs</a> &raquo;</li>
+        
+      <li>adventuregame.items module</li>
+    
+    
+      <li class="wy-breadcrumbs-aside">
+        
+            
+            <a href="_sources/adventuregame.items.rst.txt" rel="nofollow"> View page source</a>
+          
+        
+      </li>
+    
+  </ul>
+
+  
+  <hr/>
+</div>
+          <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
+           <div itemprop="articleBody">
+            
+  <div class="section" id="module-items">
+<span id="adventuregame-items-module"></span><h1>adventuregame.items module<a class="headerlink" href="#module-items" title="Permalink to this headline">¶</a></h1>
+<dl class="class">
+<dt id="items.Dagger">
+<em class="property">class </em><code class="sig-prename descclassname">items.</code><code class="sig-name descname">Dagger</code><a class="headerlink" href="#items.Dagger" title="Permalink to this definition">¶</a></dt>
+<dd><p>Bases: <a class="reference internal" href="#items.Weapon" title="items.Weapon"><code class="xref py py-class docutils literal notranslate"><span class="pre">items.Weapon</span></code></a></p>
+<p>A Weapon that deals 10 damage.</p>
+</dd></dl>
+
+<dl class="class">
+<dt id="items.Gold">
+<em class="property">class </em><code class="sig-prename descclassname">items.</code><code class="sig-name descname">Gold</code><span class="sig-paren">(</span><em class="sig-param">amount</em><span class="sig-paren">)</span><a class="headerlink" href="#items.Gold" title="Permalink to this definition">¶</a></dt>
+<dd><p>Bases: <a class="reference internal" href="#items.Item" title="items.Item"><code class="xref py py-class docutils literal notranslate"><span class="pre">items.Item</span></code></a></p>
+<p>Item that can be found to give the player more gold.</p>
+<dl class="attribute">
+<dt id="items.Gold.amount">
+<code class="sig-name descname">amount</code><a class="headerlink" href="#items.Gold.amount" title="Permalink to this definition">¶</a></dt>
+<dd><p>The amount of gold that is added on pick up.</p>
+<dl class="field-list simple">
+<dt class="field-odd">Type</dt>
+<dd class="field-odd"><p>int</p>
+</dd>
+</dl>
+</dd></dl>
+
+</dd></dl>
+
+<dl class="class">
+<dt id="items.HealthPotion">
+<em class="property">class </em><code class="sig-prename descclassname">items.</code><code class="sig-name descname">HealthPotion</code><span class="sig-paren">(</span><em class="sig-param">name</em>, <em class="sig-param">description</em>, <em class="sig-param">value</em>, <em class="sig-param">healing</em><span class="sig-paren">)</span><a class="headerlink" href="#items.HealthPotion" title="Permalink to this definition">¶</a></dt>
+<dd><p>Bases: <a class="reference internal" href="#items.Item" title="items.Item"><code class="xref py py-class docutils literal notranslate"><span class="pre">items.Item</span></code></a></p>
+<p>Superclass to specific healing items.</p>
+<dl class="attribute">
+<dt id="items.HealthPotion.healing">
+<code class="sig-name descname">healing</code><a class="headerlink" href="#items.HealthPotion.healing" title="Permalink to this definition">¶</a></dt>
+<dd><p>Amount of Health Points the potion heals.</p>
+<dl class="field-list simple">
+<dt class="field-odd">Type</dt>
+<dd class="field-odd"><p>int</p>
+</dd>
+</dl>
+</dd></dl>
+
+</dd></dl>
+
+<dl class="class">
+<dt id="items.Item">
+<em class="property">class </em><code class="sig-prename descclassname">items.</code><code class="sig-name descname">Item</code><span class="sig-paren">(</span><em class="sig-param">name</em>, <em class="sig-param">description</em>, <em class="sig-param">value</em><span class="sig-paren">)</span><a class="headerlink" href="#items.Item" title="Permalink to this definition">¶</a></dt>
+<dd><p>Bases: <code class="xref py py-class docutils literal notranslate"><span class="pre">object</span></code></p>
+<p>Superclass of all items in the game.</p>
+<dl class="attribute">
+<dt id="items.Item.name">
+<code class="sig-name descname">name</code><a class="headerlink" href="#items.Item.name" title="Permalink to this definition">¶</a></dt>
+<dd><p>Name of the item.</p>
+<dl class="field-list simple">
+<dt class="field-odd">Type</dt>
+<dd class="field-odd"><p>str</p>
+</dd>
+</dl>
+</dd></dl>
+
+<dl class="attribute">
+<dt id="items.Item.description">
+<code class="sig-name descname">description</code><a class="headerlink" href="#items.Item.description" title="Permalink to this definition">¶</a></dt>
+<dd><p>Short description what the item is/does.</p>
+<dl class="field-list simple">
+<dt class="field-odd">Type</dt>
+<dd class="field-odd"><p>str</p>
+</dd>
+</dl>
+</dd></dl>
+
+<dl class="attribute">
+<dt id="items.Item.value">
+<code class="sig-name descname">value</code><a class="headerlink" href="#items.Item.value" title="Permalink to this definition">¶</a></dt>
+<dd><p>Value the item has when buying or selling it.</p>
+<dl class="field-list simple">
+<dt class="field-odd">Type</dt>
+<dd class="field-odd"><p>int</p>
+</dd>
+</dl>
+</dd></dl>
+
+</dd></dl>
+
+<dl class="class">
+<dt id="items.LargeHealthPotion">
+<em class="property">class </em><code class="sig-prename descclassname">items.</code><code class="sig-name descname">LargeHealthPotion</code><a class="headerlink" href="#items.LargeHealthPotion" title="Permalink to this definition">¶</a></dt>
+<dd><p>Bases: <a class="reference internal" href="#items.HealthPotion" title="items.HealthPotion"><code class="xref py py-class docutils literal notranslate"><span class="pre">items.HealthPotion</span></code></a></p>
+<p>A Healthpotion that restores 50 Health Points.</p>
+</dd></dl>
+
+<dl class="class">
+<dt id="items.SmallHealthPotion">
+<em class="property">class </em><code class="sig-prename descclassname">items.</code><code class="sig-name descname">SmallHealthPotion</code><a class="headerlink" href="#items.SmallHealthPotion" title="Permalink to this definition">¶</a></dt>
+<dd><p>Bases: <a class="reference internal" href="#items.HealthPotion" title="items.HealthPotion"><code class="xref py py-class docutils literal notranslate"><span class="pre">items.HealthPotion</span></code></a></p>
+<p>A Healthpotion that restores 30 Health Points.</p>
+</dd></dl>
+
+<dl class="class">
+<dt id="items.Stone">
+<em class="property">class </em><code class="sig-prename descclassname">items.</code><code class="sig-name descname">Stone</code><a class="headerlink" href="#items.Stone" title="Permalink to this definition">¶</a></dt>
+<dd><p>Bases: <a class="reference internal" href="#items.Weapon" title="items.Weapon"><code class="xref py py-class docutils literal notranslate"><span class="pre">items.Weapon</span></code></a></p>
+<p>A Weapon that deals 5 damage.</p>
+</dd></dl>
+
+<dl class="class">
+<dt id="items.Sword">
+<em class="property">class </em><code class="sig-prename descclassname">items.</code><code class="sig-name descname">Sword</code><a class="headerlink" href="#items.Sword" title="Permalink to this definition">¶</a></dt>
+<dd><p>Bases: <a class="reference internal" href="#items.Weapon" title="items.Weapon"><code class="xref py py-class docutils literal notranslate"><span class="pre">items.Weapon</span></code></a></p>
+<p>A Weapon that deals 25 damage.</p>
+</dd></dl>
+
+<dl class="class">
+<dt id="items.Weapon">
+<em class="property">class </em><code class="sig-prename descclassname">items.</code><code class="sig-name descname">Weapon</code><span class="sig-paren">(</span><em class="sig-param">name</em>, <em class="sig-param">description</em>, <em class="sig-param">value</em>, <em class="sig-param">damage</em><span class="sig-paren">)</span><a class="headerlink" href="#items.Weapon" title="Permalink to this definition">¶</a></dt>
+<dd><p>Bases: <a class="reference internal" href="#items.Item" title="items.Item"><code class="xref py py-class docutils literal notranslate"><span class="pre">items.Item</span></code></a></p>
+<p>Superclass for all Weapons in the game.</p>
+<dl class="attribute">
+<dt id="items.Weapon.damage">
+<code class="sig-name descname">damage</code><a class="headerlink" href="#items.Weapon.damage" title="Permalink to this definition">¶</a></dt>
+<dd><p>The amount of damage the weapon does to the enemy’s
+Health Points.</p>
+<dl class="field-list simple">
+<dt class="field-odd">Type</dt>
+<dd class="field-odd"><p>int</p>
+</dd>
+</dl>
+</dd></dl>
+
+</dd></dl>
+
+</div>
+
+
+           </div>
+           
+          </div>
+          <footer>
+  
+
+  <hr/>
+
+  <div role="contentinfo">
+    <p>
+        &copy; Copyright 2019, Mathias Gerber
+
+    </p>
+  </div>
+  Built with <a href="http://sphinx-doc.org/">Sphinx</a> using a <a href="https://github.com/rtfd/sphinx_rtd_theme">theme</a> provided by <a href="https://readthedocs.org">Read the Docs</a>. 
+
+</footer>
+
+        </div>
+      </div>
+
+    </section>
+
+  </div>
+  
+
+
+  <script type="text/javascript">
+      jQuery(function () {
+          SphinxRtdTheme.Navigation.enable(true);
+      });
+  </script>
+
+  
+  
+    
+   
+
+</body>
+</html>

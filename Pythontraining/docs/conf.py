@@ -43,6 +43,8 @@ exclude_patterns = ['_build', 'Thumbs.db', '.DS_Store']
 
 autodoc_mock_imports = ["adventuregame"]
 
+master_doc = 'index'
+
 
 # -- Options for HTML output -------------------------------------------------
 
